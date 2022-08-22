@@ -39,7 +39,7 @@ function Header() {
           Hire Me
         </a>
         {/* <Button text="Hire Me" url={"#contact"} /> */}
-        <ButtonLight text="Resume" url={"https://drive.google.com/file/d/1EK-XnfvumyD9tpihtb0a3A0hoRm-HamO/view?usp=sharing"} />
+        <ButtonLight text="Resume" url={"https://drive.google.com/file/d/10YHN_en_M9yxAk3AWFS0GULRhSGtWjjW/view?usp=sharing"} />
       </div>
     </div>
   );
