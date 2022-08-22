@@ -1,0 +1,24 @@
+.button-card-light{
+  font-size: 2rem;
+  height: 4rem;
+  width: 13rem;
+
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 10px;
+  border: 4px solid #8FE3CF;
+  box-shadow: 1p 10px 5px rgba(0, 0, 0, .7);
+
+
+  &:link,
+  &:visited {
+    color: #8FE3CF;
+    text-decoration: none;
+  }
+
+  &:hover {
+    transform: scale(1.1);
+  }
+}

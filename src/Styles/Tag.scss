@@ -1,0 +1,11 @@
+.tag {
+  display: flex;
+  align-items: center;
+  height: 4rem;
+  color: white;
+  margin-right: 2rem;
+
+  &:hover {
+    transform: scale(1.1);
+  }
+}

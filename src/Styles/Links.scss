@@ -1,0 +1,39 @@
+.links {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  transform: scale(3);
+  margin-right: 15%;
+
+  @media only screen and (max-width: 81.25em) {
+    opacity: 0;
+  }
+
+  &__item {
+
+
+  
+
+    &:not(:last-child) {
+      margin-bottom: 1rem;
+    }
+
+    &:link,
+    &:visited {
+      color: white;
+    }
+
+    &:hover {
+      color: #8fe3cf;
+      transform: scale(1.1);
+    }
+  }
+}
+
+.MuiIconButton-colorPrimary {
+  color: white;
+}
+
+.MuiIconButton-colorSecondary {
+  color: white;
+}

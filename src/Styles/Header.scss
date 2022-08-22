@@ -1,0 +1,140 @@
+
+
+
+.header {
+  margin-left: 15%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  height: 100vh;
+
+  @media only screen and (max-width: 37.5em) {
+    font-size: 2rem;
+    align-self: center;
+    margin: 0 10% 0 10%;
+    width: 85%;
+  }
+
+  &__main {
+    margin-bottom: 5rem;
+  }
+
+  
+
+  &__intro {
+    font-size: 5rem;
+    color: white;
+    animation-name: moveInLeft;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+
+    @media only screen and (max-width: 77.5625em) {
+      font-size: 3rem;
+    }
+
+    @media only screen and (max-width: 37.5em) {
+      font-size: 2rem;
+    }
+  }
+
+  &__name {
+    font-size: 13rem;
+    color: #8fe3cf;
+    text-transform: uppercase;
+    animation-name: moveInRight;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+
+    @media only screen and (max-width: 77.5625em) {
+      font-size: 10rem;
+    }
+
+    @media only screen and (max-width: 37.5em) {
+      font-size: 6rem;
+    }
+  }
+
+  &__description {
+    font-size: 5rem;
+    color: white;
+    display: flex;
+    animation-name: moveInLeft;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+
+    @media only screen and (max-width: 77.5625em) {
+      display: flex;
+      flex-direction: column;
+      font-size: 3rem;
+    }
+
+    @media only screen and (max-width: 37.5em) {
+      font-size: 2rem;
+    }
+  }
+
+  &__type {
+    display: flex;
+    color: #8fe3cf;
+  }
+
+  span {
+    color: #8fe3cf;
+  }
+
+  &__buttons {
+    display: flex;
+    gap: 3rem;
+    animation-name: moveInButtom;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+
+  }
+}
+
+
+
+@keyframes moveInLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-10rem);
+  }
+
+  80% {
+    transform: translateX(1rem);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+@keyframes moveInRight {
+  0% {
+    opacity: 0;
+    transform: translateX(10rem);
+  }
+
+  80% {
+    transform: translateX(-1rem);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+@keyframes moveInButtom {
+  0% {
+    opacity: 0;
+    transform: translateY(3rem);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+

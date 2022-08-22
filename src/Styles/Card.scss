@@ -1,0 +1,157 @@
+.card {
+  perspective: 150rem; //150 rem is normal
+  -moz-perspective: 150rem;
+  position: relative;
+  width: 45%;
+
+  &__side {
+    position: relative;
+    height: 55rem;
+
+    text-align: center;
+    margin-bottom: 5rem;
+
+    transform-style: preserve-3d;
+    transition: all 1s ease;
+
+    &--front {
+      text-align: center;
+      background-blend-mode: color;
+      background-color: rgba($color: #002b5b, $alpha: .9);
+      
+
+      &-title {
+      
+        font-size: 4rem;
+        // background-color: #256D85
+        margin-top: 15rem;
+        color: #8FE3CF;
+      }
+    }
+
+    &--back {
+      color: white;
+      padding: 5rem 2rem;
+      transform: rotateY(180deg);
+      background-color: rgba($color: #002b5b, $alpha: .9);
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      
+
+      &-description {
+        font-size: 1.6rem;
+        color: #fff;
+        flex: 0 0 75%;
+      }
+
+      &-button {
+        display: flex;
+        justify-content: space-evenly;
+
+        @media only screen and (max-width: 83.5625em),
+          only screen and(hover: none) {
+          display: flex;
+          font-size: 1.5rem;
+          align-self: center;
+          position: absolute;
+          bottom: 15%;
+
+          & > *:not(:last-child) {
+            margin-right: 3rem;
+          }
+
+          & > * {
+            transform: scale(0.8);
+          }
+        }
+
+        @media only screen and (max-width: 25.625em),
+          only screen and(hover: none) {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: flex-start;
+        }
+      }
+
+      &-stack {
+        display: flex;
+        font-size: 1.5rem;
+        align-self: flex-start;
+        position: absolute;
+        bottom: 3%;
+      }
+    }
+
+    &--front,
+    &--back {
+      position: absolute;
+      border-radius: 10px;
+      
+      width: 100%;
+      height: 100%;
+      -webkit-backface-visibility: hidden; /* Safari */
+      backface-visibility: hidden;
+    }
+  }
+
+  &:hover &__side {
+    transform: rotateY(180deg);
+  }
+
+  &__button {
+    position: absolute;
+    top: 0;
+  }
+
+  @media only screen and (max-width: 83.5625em), only screen and(hover: none) {
+    width: 100%;
+
+    &__side {
+      position: relative;
+      height: 55rem;
+
+      text-align: center;
+      margin-bottom: 5rem;
+
+      &--front {
+        text-align: center;
+
+        &-title {
+          position: relative;
+          margin-top: 5rem;
+          color: white;
+          z-index: 10;
+        }
+      }
+
+      &--back {
+        color: white;
+        padding: 5rem 2rem;
+        transform: rotateY(0);
+        background-color: rgba($color: #002b5b, $alpha: .3);
+        position: relative;
+        display: flex;
+        flex-direction: column;
+
+        &-description {
+          margin-top: 10rem;
+          font-size: 1.6rem;
+          color: #fff;
+          flex: 0 0 75%;
+        }
+
+        &-button {
+          display: flex;
+          justify-content: space-evenly;
+          margin-left: 2rem;
+        }
+      }
+    }
+
+    &:hover &__side {
+      transform: rotateY(0);
+    }
+  }
+}

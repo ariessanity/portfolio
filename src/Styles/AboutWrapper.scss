@@ -1,0 +1,20 @@
+.about-me-wrapper {
+  font-size: 2rem;
+  background-color: #fff;
+  color: #333;
+  padding: 10rem 0;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+
+  @media only screen and (max-width: 86.8125em) {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+
+ 
+  
+}
+

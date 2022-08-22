@@ -1,0 +1,38 @@
+.about-me {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 15%;
+    flex: 0 0 40%;
+
+    @media only screen and (max-width: 86.8125em) {
+        
+        flex: 0 0 100%;
+        margin-bottom: 5rem;
+      }
+
+
+      @media only screen and (max-width: 37.5em) {
+        align-self: center;
+        margin: 0 15% 0 15%;
+        width: 85%;
+      }
+   
+   
+
+
+    &__title {
+        font-size: 4rem;
+        margin-bottom: 2rem;
+
+    }
+
+    &__sub {
+        font-weight: 400;
+        margin-bottom: 2rem;
+    }
+
+    &__introduction {
+        width: 80%;
+    }
+}

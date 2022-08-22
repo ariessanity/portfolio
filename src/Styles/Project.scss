@@ -1,0 +1,30 @@
+.project {
+  margin: 0 15% 0 15%;
+
+  @media only screen and (max-width: 37.5em) {
+    margin: 0 10% 0 10%;
+  }
+
+  &__title {
+    font-size: 4rem;
+    margin-bottom: 5rem;
+    display: flex;
+    justify-content: flex-start;
+
+  
+  }
+
+  &__card {
+    display: flex;
+
+    & > *:not(:last-child) {
+      margin-right: 1rem;
+    }
+
+    @media only screen and (max-width: 83.5625em) {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+    }
+  }
+}
