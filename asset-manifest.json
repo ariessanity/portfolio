@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.fad67811.css",
+    "main.js": "/portfolio/static/js/main.4f073f11.js",
+    "static/media/ph-tours.png": "/portfolio/static/media/ph-tours.899963022ad61b4cf0d3.png",
+    "static/media/weather.png": "/portfolio/static/media/weather.68ced9d69d4281dfe42c.png",
+    "static/media/todo.png": "/portfolio/static/media/todo.830962cac5e55f3a9e28.png",
+    "static/media/icons8-sass.svg": "/portfolio/static/media/icons8-sass.a17505e3004c556710e1efb5c1042295.svg",
+    "static/media/icons8-react-native.svg": "/portfolio/static/media/icons8-react-native.2d80508d388f8a99ffd2129955e481b2.svg",
+    "static/media/icons8-git.svg": "/portfolio/static/media/icons8-git.aeeb13ab71f0fa41e8bb99688f96cfdd.svg",
+    "index.html": "/portfolio/index.html",
+    "static/media/icons8-material-ui.svg": "/portfolio/static/media/icons8-material-ui.8e8d37c6bebf84512bcbbc9c0c4d8a71.svg",
+    "static/media/icons8-visual-studio-code-2019.svg": "/portfolio/static/media/icons8-visual-studio-code-2019.feab1f2b5e068c7e1ab02acc59a58f61.svg",
+    "static/media/icons8-firebase.svg": "/portfolio/static/media/icons8-firebase.2bee4fd0d5446edf463b523fad9b8770.svg",
+    "static/media/icons8-css3.svg": "/portfolio/static/media/icons8-css3.64fa1d1c4801d931c3717be71f6c020e.svg",
+    "static/media/icons8-html-5.svg": "/portfolio/static/media/icons8-html-5.8ae3d4adcd70a1028a6377697d9f33b0.svg",
+    "static/media/icons8-npm.svg": "/portfolio/static/media/icons8-npm.7269770dbea6115a5ecf8caf01134e18.svg",
+    "main.fad67811.css.map": "/portfolio/static/css/main.fad67811.css.map",
+    "main.4f073f11.js.map": "/portfolio/static/js/main.4f073f11.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fad67811.css",
+    "static/js/main.4f073f11.js"
+  ]
+}
