@@ -19,16 +19,16 @@ function Stack() {
     <div className="stack">
       <h2 className="about-me__title"> TechStack</h2>
       <div className="stack__icons">
-        <Icons icon={html5} />
-        <Icons icon={css3} />
-        <Icons icon={react} />
-        <Icons icon={mongodb} />
-        <Icons icon={node} />
-        <Icons icon={sass} />
-        <Icons icon={redux} />
-        <Icons icon={npm} />
-        <Icons icon={firebase} />
-        <Icons icon={git} />
+        <Icons icon={html5} text="HTML"/>
+        <Icons icon={css3} text="CSS"/>
+        <Icons icon={react} text="React"/>
+        <Icons icon={mongodb} text="MongoDB"/>
+        <Icons icon={node} text="NodeJS"/>
+        <Icons icon={sass} text="SASS"/>
+        <Icons icon={redux} text="Redux"/>
+        <Icons icon={npm} text="NPM"/>
+        <Icons icon={firebase} text="Firebase"/>
+        <Icons icon={git} text="Git"/>
       </div>
     </div>
   );
