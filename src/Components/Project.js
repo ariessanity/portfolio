@@ -4,10 +4,15 @@ import "../Styles/Project.scss";
 import weather from "../img/weather.png";
 import todo from "../img/todo.png";
 import tour from "../img/ph-tours.png";
+import ecom from "../img/ecom.png";
+
 import css3 from "../icons/icons8-css3.svg";
 import html5 from "../icons/icons8-html-5.svg";
 import sass from "../icons/icons8-sass.svg";
 import react from "../icons/icons8-react-native.svg";
+import mongoDB from "../icons/icons8-mongodb.svg";
+import node from "../icons/icons8-node-js.svg";
+import redux from "../icons/icons8-redux.svg";
 
 function Project() {
   return (
@@ -15,6 +20,14 @@ function Project() {
       <h2 className="project__title">Projects</h2>
 
       <div className="project__card">
+        <Card
+          title="ecom-app"
+          bg={ecom}
+          description="This personal project website is developed to practice my skills and knowledge in MERN stack."
+          stacks={[react, mongoDB, node, redux]}
+          url="https://aiso-shop.herokuapp.com"
+          urlgit="https://github.com/ariessanity/ecom-app.git"
+        />
         <Card
           title="weather-app"
           bg={weather}

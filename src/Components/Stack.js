@@ -10,6 +10,9 @@ import material from "../icons/icons8-material-ui.svg";
 import firebase from "../icons/icons8-firebase.svg";
 import git from "../icons/icons8-git.svg";
 import vs from "../icons/icons8-visual-studio-code-2019.svg";
+import mongodb from "../icons/icons8-mongodb.svg";
+import node from "../icons/icons8-node-js.svg";
+import redux from "../icons/icons8-redux.svg";
 
 function Stack() {
   return (
@@ -19,12 +22,13 @@ function Stack() {
         <Icons icon={html5} />
         <Icons icon={css3} />
         <Icons icon={react} />
+        <Icons icon={mongodb} />
+        <Icons icon={node} />
         <Icons icon={sass} />
+        <Icons icon={redux} />
         <Icons icon={npm} />
-        <Icons icon={material} />
         <Icons icon={firebase} />
         <Icons icon={git} />
-        <Icons icon={vs} />
       </div>
     </div>
   );
