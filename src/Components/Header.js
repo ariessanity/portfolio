@@ -26,7 +26,7 @@ function Header() {
                   .typeString("Frontend Web Developer")
                   .pauseFor(5000)
                   .deleteAll(0.5)
-                  .typeString("Electrical Engineer")
+                  .typeString("Frontend Web Developer")
                   .pauseFor(5000)
                   .start();
               }}
@@ -39,7 +39,12 @@ function Header() {
           Hire Me
         </a>
         {/* <Button text="Hire Me" url={"#contact"} /> */}
-        <ButtonLight text="Resume" url={"https://drive.google.com/file/d/1pQj35YPK8anTxuhLicKzwjv99wJo-vmb/view?usp=sharing"} />
+        <ButtonLight
+          text="Resume"
+          url={
+            "https://drive.google.com/file/d/1pQj35YPK8anTxuhLicKzwjv99wJo-vmb/view?usp=sharing"
+          }
+        />
       </div>
     </div>
   );

@@ -1,6 +1,5 @@
-.button-card-light{
+.button-card-light {
   font-size: 2rem;
-  height: 4rem;
   width: 13rem;
 
   display: inline-flex;
@@ -8,13 +7,12 @@
   align-items: center;
 
   border-radius: 10px;
-  border: 4px solid #8FE3CF;
-  box-shadow: 1p 10px 5px rgba(0, 0, 0, .7);
-
+  border: 2px solid #8fe3cf;
+  box-shadow: 1px 10px 5px rgba(0, 0, 0, 0.3);
 
   &:link,
   &:visited {
-    color: #8FE3CF;
+    color: #8fe3cf;
     text-decoration: none;
   }
 

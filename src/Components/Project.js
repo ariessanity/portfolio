@@ -21,9 +21,9 @@ function Project() {
 
       <div className="project__card">
         <Card
-          title="ecom-app"
+          title="ecommerce"
           bg={ecom}
-          description="This personal project website is developed to practice my skills and knowledge in MERN stack."
+          description="This personal project is developed to practice my skills and knowledge in MERN stack."
           stacks={[react, mongoDB, node, redux]}
           url="https://aiso-shop.herokuapp.com"
           urlgit="https://github.com/ariessanity/ecom-app.git"
@@ -47,8 +47,8 @@ function Project() {
         <Card
           title="ph-tours"
           bg={tour}
-          description="I created this website inspired in udemy courses to practice my knowledge in Sass and responsive web design."
-          stacks={[html5, sass]}
+          description="I created this website inspired in udemy courses to practice my knowledge in Sass and in responsive web design."
+          stacks={[html5, css3, sass]}
           url="https://ariessanity.github.io/ph-tours/"
           urlgit="https://github.com/ariessanity/ph-tours.git"
         />

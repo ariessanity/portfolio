@@ -1,25 +1,26 @@
 .contacts {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin-left: 15%;
-    flex: 0 0 40%;
-    margin-right: 10rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 15%;
+  flex: 0 0 40%;
+  margin-right: 10rem;
 
-    @media only screen and (max-width: 37.5em) {
-        align-self: center;
-        margin: 0 15% 0 15%;
-        width: 85%;
-      }
+  @media only screen and (max-width: 37.5em) {
+    align-self: center;
+    margin: 0 15% 0 15%;
+    width: 85%;
+  }
 
+  & > *:not(:nth-last-child(2)) {
+    margin-bottom: 2rem;
+  }
 
-    & > *:not(:nth-last-child(2)) { 
-        margin-bottom: 2rem;
+  &__title {
+    font-size: 4rem;
+
+    @media only screen and (max-width: 25em) {
+      font-size: 3rem;
     }
-
-    &__title {
-        font-size: 4rem;
-        
-    }
-
+  }
 }
