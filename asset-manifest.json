@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.d33ba408.css",
-    "main.js": "/portfolio/static/js/main.4749cebf.js",
+    "main.js": "/portfolio/static/js/main.7e240bba.js",
     "static/media/ph-tours.png": "/portfolio/static/media/ph-tours.899963022ad61b4cf0d3.png",
     "static/media/weather.png": "/portfolio/static/media/weather.68ced9d69d4281dfe42c.png",
     "static/media/ecom.png": "/portfolio/static/media/ecom.fdd149886d67a45ad023.png",
@@ -20,10 +20,10 @@
     "static/media/icons8-html-5.svg": "/portfolio/static/media/icons8-html-5.8ae3d4adcd70a1028a6377697d9f33b0.svg",
     "static/media/icons8-npm.svg": "/portfolio/static/media/icons8-npm.7269770dbea6115a5ecf8caf01134e18.svg",
     "main.d33ba408.css.map": "/portfolio/static/css/main.d33ba408.css.map",
-    "main.4749cebf.js.map": "/portfolio/static/js/main.4749cebf.js.map"
+    "main.7e240bba.js.map": "/portfolio/static/js/main.7e240bba.js.map"
   },
   "entrypoints": [
     "static/css/main.d33ba408.css",
-    "static/js/main.4749cebf.js"
+    "static/js/main.7e240bba.js"
   ]
 }
