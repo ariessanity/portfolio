@@ -4,16 +4,15 @@
   flex-direction: column;
   transform: scale(3);
   margin-right: 15%;
+  position: relative;
 
   @media only screen and (max-width: 81.25em) {
     opacity: 0;
+    position: absolute;
+    right: 100%;
   }
 
   &__item {
-
-
-  
-
     &:not(:last-child) {
       margin-bottom: 1rem;
     }

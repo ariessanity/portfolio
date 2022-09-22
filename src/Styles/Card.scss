@@ -2,7 +2,7 @@
   perspective: 150rem; //150 rem is normal
   -moz-perspective: 150rem;
   position: relative;
-  width:  49%;
+  width: 46%;
 
   &__side {
     position: relative;
@@ -17,14 +17,18 @@
     transition: all 1s ease;
 
     &--front {
-      text-align: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center;
+
       background-blend-mode: color;
       background-color: rgba($color: #002b5b, $alpha: 0.9);
 
       &-title {
         font-size: 4rem;
         // background-color: #256D85
-        margin-top: 15rem;
+
         color: #fff; //#8FE3CF;
 
         @media only screen and (max-width: 25em) {
@@ -51,21 +55,20 @@
       &-button {
         display: flex;
         justify-content: space-evenly;
+        gap: 2rem;
 
         @media only screen and (max-width: 83.5625em),
           only screen and(hover: none) {
           display: flex;
-          font-size: 1.5rem;
+          font-size: 1.3rem;
           align-self: center;
-          position: absolute;
-          bottom: 15%;
 
           & > *:not(:last-child) {
             margin-right: 3rem;
           }
 
           & > * {
-            transform: scale(0.8);
+            transform: scale(1);
           }
         }
 
@@ -74,16 +77,17 @@
           display: flex;
           flex-direction: column;
           justify-content: center;
-          align-items: flex-start;
+          align-items: center;
+
+          & > *:not(:last-child) {
+            margin-right: 0rem;
+          }
         }
       }
 
       &-stack {
         display: flex;
         font-size: 1.5rem;
-        align-self: flex-start;
-        position: absolute;
-        bottom: 3%;
       }
     }
 
@@ -99,33 +103,32 @@
     }
   }
 
-  &:hover &__side {
-    transform: rotateY(180deg);
-  }
-
   &__button {
     position: absolute;
     top: 0;
   }
 
-  @media only screen and (max-width: 83.5625em), only screen and(hover: none) {
+  @media only screen and (max-width: 90.18em), only screen and(hover: none) {
     width: 100%;
 
     &__side {
-      position: relative;
       height: 55rem;
-
       text-align: center;
-      margin-bottom: 5rem;
+
+      @media only screen and (max-width: 25.625em),
+        only screen and(hover: none) {
+        height: 40rem;
+      }
 
       &--front {
-        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
 
         &-title {
           position: relative;
-          margin-top: 5rem;
           color: white;
-          z-index: 10;
         }
       }
 
@@ -133,23 +136,10 @@
         color: white;
         padding: 5rem 2rem;
         transform: rotateY(0);
-        background-color: rgba($color: #002b5b, $alpha: 0.3);
+        background-color: rgba($color: #002b5b, $alpha: 0.1);
         position: relative;
         display: flex;
         flex-direction: column;
-
-        &-description {
-          margin-top: 10rem;
-          font-size: 1.6rem;
-          color: #fff;
-          flex: 0 0 75%;
-        }
-
-        &-button {
-          display: flex;
-          justify-content: space-evenly;
-          margin-left: 2rem;
-        }
 
         &-stack {
           @media only screen and (max-width: 25em) {
@@ -157,10 +147,6 @@
           }
         }
       }
-    }
-
-    &:hover &__side {
-      transform: rotateY(0);
     }
   }
 }
